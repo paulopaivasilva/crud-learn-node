@@ -1,0 +1,20 @@
+{
+  "name": "crud-learn-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/paulopaivasilva/crud-learn-node.git",
+  "author": "Paulo Henrique Paiva <paulohenriquepaiva@ymail.com>",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
